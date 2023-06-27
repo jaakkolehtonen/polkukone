@@ -1,0 +1,24 @@
+{
+    "editor.rulers": [140],
+    "eslint.validate": [
+        "typescript",
+        "typescriptreact"
+    ],
+    "files.trimTrailingWhitespace": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "javascript.preferences.importModuleSpecifier": "project-relative",
+    "typescript.preferences.importModuleSpecifier": "project-relative",
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[vue]": {
+        "editor.formatOnSave": true
+    }
+}
